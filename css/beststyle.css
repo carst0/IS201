@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.common {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    
+    
+}
+.header {
+    height: 100px;
+    margin: 5px 5px 0 5px; 
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    padding-top: 5px;
+}
+
+.left, .right {
+    width: 175px;
+    flex-shrink: 0;
+}
+
+.left {
+    margin-left: 5px;
+}
+
+.main {
+    flex: 1;
+    margin: 0 5px;
+    background-image: url("../assets/img/road.jpg");
+}
+
+.right {
+    margin-right: 5px;
+}
+
+.footer {
+    height: 25px;
+    margin: 5px;
+}
+  .tableauPlaceholder {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
